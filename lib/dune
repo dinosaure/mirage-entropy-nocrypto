@@ -1,0 +1,5 @@
+(library
+ (name mirage_entropy_nocrypto)
+ (public_name mirage-entropy-nocrypto)
+ (wrapped false)
+ (libraries lwt nocrypto mirage-entropy mirage-random))
